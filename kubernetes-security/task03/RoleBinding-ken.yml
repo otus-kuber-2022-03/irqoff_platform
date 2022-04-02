@@ -4,7 +4,7 @@ metadata:
   name: ken-view-bind
   namespace: dev
 subjects:
-- kind: User
+- kind: ServiceAccount
   name: ken
   namespace: dev
 roleRef:
