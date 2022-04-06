@@ -6,7 +6,8 @@ ps в livenessProbe не имеет смысла:
 ```
 ps aux| grep [m]y_web_server_process
 ```
-kill main process```
+kill main process
+```
 
 Логи MetalLB:
 ---
@@ -24,8 +25,8 @@ $ curl http://10.97.55.94/web/ -s |& head -2
 
 С хостовой системы:
 ```
-dig +short @172.17.255.10 ya.ru
-87.250.250.242
+dig +short kubernetes.default.svc.cluster.local @172.17.255.10
+10.96.0.1
 ```
 
 ## Ingress для Dashboard
