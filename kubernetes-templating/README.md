@@ -17,6 +17,10 @@ helm upgrade --install chartmuseum stable/chartmuseum --wait  --namespace=chartm
 helm upgrade --install harbor  harbor/harbor --version=1.9.0 --namespace harbor --create-namespace -f kubernetes-templating/harbor/values.yml
 ```
 
+![](./img/chartmuseum.png)
+
+![](./img/harbor.png)
+
 ## kubecfg
 
 ```
